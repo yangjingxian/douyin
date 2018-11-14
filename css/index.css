@@ -1,0 +1,116 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html,body{
+  height: 100%;
+}
+
+body{
+  display: flex;          
+  flex-direction: column; 
+  font-size: 20px;        
+  font-family: arial;     
+}
+
+.page-video-bg{
+  height: 100%;
+}
+
+.page-video-bg video {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.page-header{
+  padding-top: 18px;
+  padding-right: 10px;
+  text-align: right;
+}
+
+.page-header{
+  width: 1500px;
+  margin: 20px auto;
+}
+
+.page-header nav a{
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+  margin-left: 20px;
+  text-align: right;
+  text-decoration: none;
+}
+
+.logo-content{
+  width: 1500px;
+  margin: 20px auto;
+}
+
+.page-content .logo-content img{
+  width: 120px;
+  height: 50px;
+  text-align: left;
+}
+
+.logo-container{
+  width: 1500px;
+  margin: 20px auto;
+  text-align: right;
+}
+
+.page-container{
+  position: relative;
+  height: 100%;
+}
+
+.page-content{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+}
+
+.page-content .logo-container img{
+  width: 550px;
+  height: 100px;
+  text-align: right;
+  margin-top: 250px;
+}
+
+.page-mainer .logo-app img{
+  width: 200px;
+  height: 60px;
+  margin-top: 50px;
+}
+
+.page-mainer .logo-QR img{
+  width: 50px;
+  height: 50px;
+    margin-top: 10px;
+}
+
+.page-mainer{
+  flex: 1;
+  width: 1500px;
+  margin: 20px auto;
+  text-align: right;
+}
+
+.page-footer {
+  text-align: center;
+  padding-bottom: 50px;
+  text-decoration: none;
+}
+
+.page-footer nav a{
+  line-height: 2;
+  padding-bottom: 50px;
+  color: #fff;
+  text-decoration: none;
+}
